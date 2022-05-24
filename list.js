@@ -2,6 +2,7 @@ const { exec } = require("child_process");
 
 const fileSource = "./files.txt";
 
+// Source Bucket name that you want to migrate must same with the one on script.js
 const srcBucketName =
   "dev-sdconnect-stack-devsdconnects3bucket-s3bucket-186popcyz68z3";
 

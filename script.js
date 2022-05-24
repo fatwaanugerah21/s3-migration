@@ -1,8 +1,10 @@
 const fs = require("fs");
 const { exec } = require("child_process");
 
+// Source Bucket name that you want to migrate must same with the one on list.js
 const srcBucketName =
   "dev-sdconnect-stack-devsdconnects3bucket-s3bucket-186popcyz68z3";
+// Target Bucket name that you want to migrate
 const destBucketName =
   "dev-sdconnect-api-stack-s3-1drgfjqjetrmm-s3bucket-1pcy4lebvxp0c";
 
