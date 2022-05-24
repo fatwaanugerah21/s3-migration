@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "migrate": "node list.js && node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
